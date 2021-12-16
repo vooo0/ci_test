@@ -1,0 +1,9 @@
+CRITICAL - 2021-12-15 20:40:54 --> Invalid file: index.php
+#0 D:\laragon\www\ci_test\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 D:\laragon\www\ci_test\system\Common.php(1097): CodeIgniter\View\View->render('index', Array, true)
+#2 D:\laragon\www\ci_test\app\Controllers\BarangController.php(13): view('index')
+#3 D:\laragon\www\ci_test\system\CodeIgniter.php(824): App\Controllers\BarangController->index()
+#4 D:\laragon\www\ci_test\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+#5 D:\laragon\www\ci_test\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\ci_test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
